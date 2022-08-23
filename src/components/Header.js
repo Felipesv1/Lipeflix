@@ -37,7 +37,7 @@ export default function Header() {
         <div>
         <TitleNav>LIPEFLIX</TitleNav>
         </div>
-    <Link to="/">
+    <Link to="">
       <h3>Home</h3>
     </Link>
     <Link to="/Movies">

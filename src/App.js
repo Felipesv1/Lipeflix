@@ -14,7 +14,7 @@ export default function App(){
    <Header />
       <GlobalStyled/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="" element={<Home />} />
         <Route path="/Movies" element={<Movies />} />
         <Route path="/Series" element={<Series />} />
       </Routes>
