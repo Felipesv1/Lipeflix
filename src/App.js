@@ -6,8 +6,6 @@ import Series from "./components/series/Series.js";
 import Header from "./components/Header.js";
 import GlobalStyled from './GlobalStyled';
 
-
-
 export default function App(){
   return(
     <Router>
