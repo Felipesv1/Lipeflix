@@ -5,7 +5,7 @@ import GlobalStyled from '../../GlobalStyled.js'
 import {Container,Title,InfosFilmes,BoxImg,List} from "./MovieStyle.js"
 
 const MyMovies_api = axios.create({
-    baseURL: "https://api.themoviedb.org/3/movie/popular?api_key=eff0ebc6f24060cba1c4ceb8fea3f898&language=en-US&page=1"
+    baseURL: "https://api.themoviedb.org/3/movie/popular?api_key=eff0ebc6f24060cba1c4ceb8fea3f898&language=pt-BR&page=1"
 })
 
 export default class Movies extends React.Component{
