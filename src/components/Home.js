@@ -40,6 +40,14 @@ h2{
   text-align:start
 }
 
+form{
+  width: 100%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 input{
   width:60%;
   padding: 10px 0 15px 10px;
@@ -88,15 +96,16 @@ export default function Home() {
       <Title>welcome to my movie site </Title>
       <BoxLogin>
         <h2>Faça login</h2>
+        <form>
         <label>Login</label>
         <input type="text"/>
         <label>Password</label>
-
         <input id="Password" type="password"/>
         <BoxBtn>
         <button>Entrar</button>
         <p><a href="#">Register</a></p>
         </BoxBtn>
+        </form>
       </BoxLogin>
     </Container>
   );

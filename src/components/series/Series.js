@@ -5,7 +5,7 @@ import {Container,Title,InfosFilmes,BoxImg,List} from "./SeriesStyled.js"
 
 
 const MyMovies_api = axios.create({
-    baseURL: "https://api.themoviedb.org/3/tv/popular?api_key=eff0ebc6f24060cba1c4ceb8fea3f898&language=en-US&page=1"
+    baseURL: "https://api.themoviedb.org/3/tv/popular?api_key=eff0ebc6f24060cba1c4ceb8fea3f898&language=pt-BR&page=1"
 })
 
 export default class Series extends React.Component{

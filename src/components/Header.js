@@ -44,7 +44,7 @@ export default function Header() {
       <h3>Movies</h3>
     </Link>
     <Link to="/Series">
-      <h3>Series</h3>
+      <h3>Series</h3> 
     </Link>
     </Nav>
   );
